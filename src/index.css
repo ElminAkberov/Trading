@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dm-sans {
+    font-family: "DM SansR", sans-serif;
+    /* font-weight: 500; */
+}
+
+.dm-sans_m {
+    font-family: "DM SansM", sans-serif;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "DM SansR";
+    src: url("/public/fonts/DMSans-Regular-BF64376d323f095.ttf");
+}
+
+@font-face {
+    font-family: "DM SansM";
+    src: url("/public/fonts/DMSans-Medium-BF64376d329a539.ttf");
+}
+
+@font-face {
+    font-family: "SpartanBold";
+    src: url("/public/fonts/Spartan-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Spartan";
+    src: url("/public/fonts/Spartan-SemiBold.ttf");
+}
+
+.spartan_bold {
+    font-family: "SpartanBold";
+}
+
+.spartan {
+    font-family: "Spartan";
+}
+
+@keyframes etherium {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.animate-eth {
+    animation: etherium 3.5s infinite;
+}
+
+.bg-gray{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
+}
